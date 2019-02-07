@@ -1,0 +1,14 @@
+applications:
+- name: iotcfapi
+  memory: 256m
+  instances: 1
+  buildpacks: 
+    - https://github.com/cloudfoundry/nodejs-buildpack.git
+  env:
+    IOT_CORE_API: "/iot/core/api/v1/devices/"
+    IOT_MEASURES_SERVICE: "/measures" 
+    IOT_TENANT_URL: "https://ekt2XX.canary.cp.iot.sap"  
+    IOT_DEVICE_ID: "XXX"
+    IOT_AUTH: "BasicXXX"
+
+    

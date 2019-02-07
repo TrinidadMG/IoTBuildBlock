@@ -1,0 +1,393 @@
+{
+	"info": {
+		"_postman_id": "49f4542f-2e0e-42a0-88ee-9324b05e4907",
+		"name": "IoT 4.0 APIs - Chrome Certif",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET tenants",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic XYZBase64"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/tenants",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"tenants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET tenant",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic Basic XYZBase64"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/tenants/177",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"tenants",
+						"177"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET tenant users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/tenants/177/users",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"tenants",
+						"177",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/users",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET vendors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/vendors",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"vendors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET gateways",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/gateways",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET capabilities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/capabilities",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"capabilities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sensors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/sensors",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"sensors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sensorTypes SensorTag(032998ad...)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/sensorTypes/032998ad-4ee6-4f65-9658-b050ec04c7b0",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"sensorTypes",
+						"032998ad-4ee6-4f65-9658-b050ec04c7b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sensorTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/sensorTypes",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"sensorTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET devices",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/devices",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET device measures",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic XYZBase64"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://ekt21X.canary.cp.iot.sap/iot/core/api/v1/devices/DEVICE_ID/measures",
+					"protocol": "https",
+					"host": [
+						"ekt21X",
+						"canary",
+						"cp",
+						"iot",
+						"sap"
+					],
+					"path": [
+						"iot",
+						"core",
+						"api",
+						"v1",
+						"devices",
+						"DEVICE_ID",
+						"measures"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

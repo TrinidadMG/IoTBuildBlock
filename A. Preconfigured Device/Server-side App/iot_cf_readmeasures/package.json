@@ -1,0 +1,35 @@
+{
+  "name": "iotcfapi",
+  "version": "1.0.0",
+  "description": " SMB IoT API CF sample",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrinidadMG/IoTBuildBlock.git"
+  },
+  "keywords": [
+    "iot",
+    "sap",
+    "sap",
+    "cloud",
+    "platform",
+    "b1",
+    "sap",
+    "business",
+    "one"
+  ],
+  "author": "Trinidad Martinez - @TrinidadMG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XYZ/iotcfapi/issues"
+  },
+  "homepage": "https://github.com/TrinidadMG/IoTBuildBlock#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
