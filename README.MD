@@ -33,7 +33,7 @@ Your main task is then to understand how to operate with the Device (Send / Rece
 Please check the [specific readme for details on this option](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device).
 
 ### Option B: Bring Your Own Device 
-If you choose this option it means you have your own device that you want to manage from SAP Leonardo IoT Service. In this case you will have to declare and configure your device in the SAP Leonardo IoT Service. We will provide you with some documents and sample code so you can fulfill this task.
+If you choose this option it means you have your own IoT device that you want to manage from SAP Leonardo IoT Service. In this case you will have to declare and configure your device in the SAP Leonardo IoT Service. We will provide you with some documents and sample code so you can fulfill this task.
 
 Please check the [specific readme for details on this option](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device).
 
