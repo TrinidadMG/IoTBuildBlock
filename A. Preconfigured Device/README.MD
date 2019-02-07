@@ -25,6 +25,7 @@ The attached document shows in detail how to get the measures for your device vi
 
 ### App Samples
 We provide to you also 2 different sample apps showing you how to consume the IoT APIs:
+
     1. Client-side: Sample SAP Fiori app **SET LINK**
         Retrieves sensor values via API and show them in a table
     2. Server-side: [Sample NodeJS app to Retrieve Sensor Values](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Server-side%20App/iot_cf_readmeasures)
