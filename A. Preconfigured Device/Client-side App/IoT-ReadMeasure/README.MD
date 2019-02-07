@@ -3,7 +3,11 @@ How to get it work?
 2. Modify parameters accordingly
 3. Push to Cloud Foundry
 
-### Installation in the Cloud
+### Prerequisites
+* A free trial account on [SAP Cloud Platform](https://cloudplatform.sap.com) with Cloud Foundry Trial initialized.
+* The [Cloud Foundry Command Line Interface (CLI)](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) installed on your machine;
+
+### Deployment in the Cloud
 Clone this repository
 ```sh
 $ git clone https://github.com/TrinidadMG/IoTBuildBlock.git
