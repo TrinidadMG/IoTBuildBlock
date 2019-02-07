@@ -1,42 +1,40 @@
-# SMB Innovation Summit 2019 Hackathon - Internet of Things
-INTRODUCTION_OF_YOUR_BUILD_BLOCK
-NOT_TOO_LONG
+## Option B: Bring your own device
 
-IF_YOU_NEED_IMAGE
-![DESCRIPTION_OF_PICTURE_AND_URL_OF_IMAGE_BELOW](https://s3.amazonaws.com/tinycards/image/0c771449acaecb388c58d8805d966f61)
+To implement this option you require your own IoT device that you want to manage from SAP Leonardo IoT Service. 
 
 ## Overview
-WHAT_IS_EXPECTED_FROM_PARTICIPANT
 
-1. API Reference to create your device in the SAP Leonardo IoT Platform
-2. Sample JavaScript language script processing the API Reference
-3. Sample SAP Fiori App to Execute Sample Script
+With this option you have to declare and configure your device in the SAP Leonardo IoT Service. 
 
-## Installation
-INSTALLATION_STEPS_BREAK_DOWN
-MAKE_IT_SIMPLE_AS
-DOWNLOAD_DEPLOY_RUN
+### Provided resources 
+The following resources will be provided during the hackaton session:
 
-### Prerequisites
-IF_YOU_NEED_URL_REDIRECT [CLICK_HERE](https://bla_bla_bla) HERE_IS_AN_EXAMPLE
+- The credentials of an SAP Leonardo IoT tenant:
+    - IOT_INSTANCE_URL
+    - User 
+    - Password
 
-### Step 1
->IF_YOU_NEED_THIS_INDENT
-- OR_POINTERS
-- LIKE_THIS
+### Documentation 
 
-### Step 2
-```
-MAYBE_YOU_NEED_DEMO_CODE_SNIPPET
-```
+We provide here the document [IoT 4.0-SMBIoT SensorTag_v1.0.pdf](https://github.com/TrinidadMG/IoTBuildBlock/blob/master/B.%20Bring%20Your%20Own%20Device/IoT%204.0-SMBIoT%20SensorTag_v1.0.pdf) that guides you through the registration of a SensorTag IoT device into SAP Leonardo IoT service. You can use this document as the reference for registering your own device. The document also shows how to create an application acting as a gateway for your device to send data to the SAP IoT service, if your device can directly send the data to the SAP IoT service this gateway is not required.
 
-### Step 3
-```javascript
-var x = OR_WITH_SPECIFIC_CODE_LANGUAGE
-```
+### App Samples
+The following 2 sample apps showing you how to consume the IoT APIs in order to retrieve your device measures. These applications are the same ones as for the Option A: Preconfigured Device:
 
-## Usage
-CONFIGURATION_STEPS_IF_REQUIRED
+1. Client-side: [Sample SAP Fiori app](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Client-side%20App/IoT-ReadMeasure) - Retrieves sensor values via API and show them in a table
+
+2. Server-side: [Sample NodeJS app to Retrieve Sensor Values](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Server-side%20App/iot_cf_readmeasures)
+- Retrieves sensor measures via API
+
+Check their corresponding README files to get all details how to deploy these applications.
+
+### Additional documentation:
+
+- [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
+
+- [REST gateway APIs for sending data to the IoT gateway](https://help.sap.com/viewer/d5f07bf9e1d646959a006f98d4cce321/Cloud/en-US)
+
+- [SAP Cloud Platform Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) main page 
 
 ## License
 This repository is released under the terms of the MIT license. 
