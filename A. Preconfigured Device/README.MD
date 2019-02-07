@@ -27,12 +27,10 @@ In order to get familiarized with the SAP Leonardo IoT Service the document [IoT
 ### App Samples
 We provide to you also 2 different sample apps showing you how to consume the IoT APIs:
 
-1. Client-side: [Sample SAP Fiori app](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Client-side%20App/IoT-ReadMeasure)
-
-Retrieves sensor values via API and show them in a table
+1. Client-side: [Sample SAP Fiori app](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Client-side%20App/IoT-ReadMeasure) - Retrieves sensor values via API and show them in a table
 
 2. Server-side: [Sample NodeJS app to Retrieve Sensor Values](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Server-side%20App/iot_cf_readmeasures)
-Retrieves sensor measures via API
+- Retrieves sensor measures via API
 
 Check their corresponding README files to get all details how to deploy these applications.
 
