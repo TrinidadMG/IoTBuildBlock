@@ -1,0 +1,7 @@
+applications:
+- name: smbiotmeasures
+  memory: 64m
+  instances: 1
+buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+env:
+    IOT_TENANT_URL: "https://trial.canary.cp.iot.sap"  

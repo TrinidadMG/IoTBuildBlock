@@ -1,7 +1,7 @@
 {
   "name": "iotcfapi",
   "version": "1.0.0",
-  "description": " SMB IoT API CF sample",
+  "description": "SMB IoT API CF server-side sample application",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"

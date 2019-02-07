@@ -1,0 +1,28 @@
+<mvc:View controllerName="smbiotmeasures.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="SMB IoT 4.0 - Retrieve Measures">
+				<content>
+					<VBox direction="Column" id="vbox0" justifyContent="Center" width="100%">
+						<items>
+							<Label id="label3" text="A sample Hello World app to retrieve measures from IoT 4.0 Service." textAlign="Center" width="100%"/>
+						</items>
+					</VBox>
+					<List items="{/Measures}" headerText="Measures" growing="true" growingThreshold="10" growingScrollToLoad="false">
+						<StandardListItem title="{ parts: [ {path: 'measure'} ], formatter: 'smbiotmeasures.Formatter.measure' }"
+							description="{ parts: [ {path: 'timestamp'} ], formatter: 'smbiotmeasures.Formatter.time' }" iconDensityAware="false"
+							iconInset="false"/>
+						<headerToolbar>
+							<Toolbar>
+								<Title text="Measures" level="H2"/>
+								<ToolbarSpacer/>
+								<Button icon="sap-icon://refresh" press="handleReload"/>
+							</Toolbar>
+						</headerToolbar>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
