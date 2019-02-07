@@ -41,11 +41,8 @@ Please check the [specific readme for details on this option](https://github.com
 
 For more details on each one of the options please check their corresponding README files and folders content provided.
 
-### Prerequisites
-- A free trial account on [SAP Cloud Platform](https://cloudplatform.sap.com) with Cloud Foundry Trial initialized.
-
 ## Usage  
-Follow document  provided in the option folder. 
+Follow the documents and samples provided in each one of the option's folders. 
 
 ## License
 This repository is released under the terms of the MIT license. 
