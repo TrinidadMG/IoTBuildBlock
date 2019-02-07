@@ -1,6 +1,9 @@
 # SMB Innovation Summit 2019 Hackathon - Internet of Things
 This build block takes a quick dive into the topic of Internet of Things (IoT). IoT is transforming the competitive landscape. As the world becomes increasingly connected, digitalization is a key differentiator that will enable companies to remain competitive. Using IoT data from billions of intelligent devices generating massive volumes of data, digitalization promises lower costs, improved production quality, flexibility, efficiency, shorter response time to market demands, and also opens up new business opportunities.
 
+## Architecture
+![](https://i.imgur.com/oc5McUf.png)
+
 In an typical IoT scenario, you would need to setup & achieve the following components:
 ```mermaid
 graph TB
