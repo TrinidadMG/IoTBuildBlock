@@ -1,6 +1,9 @@
 # SMB Innovation Summit 2019 Hackathon - Internet of Things
 This build block takes a quick dive into the topic of Internet of Things (IoT). IoT is transforming the competitive landscape. As the world becomes increasingly connected, digitalization is a key differentiator that will enable companies to remain competitive. Using IoT data from billions of intelligent devices generating massive volumes of data, digitalization promises lower costs, improved production quality, flexibility, efficiency, shorter response time to market demands, and also opens up new business opportunities.
 
+## Architecture
+![](https://i.imgur.com/oc5McUf.png)
+
 In an typical IoT scenario, you would need to setup & achieve the following components:
 ```mermaid
 graph TB
@@ -15,12 +18,12 @@ E --> F[Communicating between your Device and the Gateway]
 
 In this build block, you will learn & understand the following:
 
-1. SAP Leonardo IoT 4.0 Service.
+1. [SAP Leonardo IoT 4.0 Service](https://cloudplatform.sap.com/capabilities/technical-asset-info.SAP-Cloud-Platform-Internet-of-Things.420907e8-fb5b-44bb-8966-a3e4679987d9.html)
 
-2. SAP Leonardo IoT 4.0 Service APIs.
+2. [SAP Leonardo IoT 4.0 Service APIs](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
 A ready-to-consume APIs set that allows you to consume Sensor Device data in real time.
 
-3. The Texas Instruments CC2650STK sensor. 
+3. The [Texas Instruments CC2650STK SensorTag](http://www.ti.com/tool/TIDC-CC2650STK-SENSORTAG). 
 This sensor is a Bluetooth Low Energy (BLE) Enabled Sensor Device which has 10 sensors including support for light, digital microphone, magnetic sensor, humidity, pressure, accelerometer, gyroscope, magnetometer, object temperature, and ambient temperature.
 
 Before you start, make sure you're provided with a Test & Development tenant of SAP Leonardo IoT 4.0 Service Cockpit and a Sensor Device.
