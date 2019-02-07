@@ -48,15 +48,16 @@ For more details on each one of the options please check their corresponding REA
 Follow the documents and samples provided in each one of the option's folders. 
 
 ## Samples
-To be updated
+- [Option A: Preconfigured Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device)
+- [Option B: Bring Your Own Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/B.%20Bring%20Your%20Own%20Device) 
 
 ## Tutorials
-https://github.com/SAP/iot-starterkit/tree/master/cf
+N.A.
 
 ## References
 ### Official Documentation
-[SAP IoT](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
-[REST gateway APIs for sending data to the IoT gateway](https://help.sap.com/viewer/d5f07bf9e1d646959a006f98d4cce321/Cloud/en-US)
+- [SAP IoT](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
+- [REST gateway APIs for sending data to the IoT gateway](https://help.sap.com/viewer/d5f07bf9e1d646959a006f98d4cce321/Cloud/en-US)
 
 ### API References
 [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
@@ -67,4 +68,4 @@ https://github.com/SAP/iot-starterkit/tree/master/cf
 
 ## License
 This repository is released under the terms of the MIT license. 
-See [LICENSE](https://github.com/B1SA/hackathon/blob/master/LICENSE) for more information or see https://opensource.org/licenses/MIT.
+<br>See [LICENSE](https://github.com/B1SA/hackathon/blob/master/LICENSE) for more information or see https://opensource.org/licenses/MIT.
