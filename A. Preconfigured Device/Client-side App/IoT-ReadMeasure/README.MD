@@ -8,7 +8,7 @@ Clone this repository
 ```sh
 $ git clone https://github.com/TrinidadMG/IoTBuildBlock.git
 ```
-Go to the folder of this application /A. Preconfigured Device/Client-side App/IoT-ReadMeasure/
+Go to your local folder of this application /A. Preconfigured Device/Client-side App/IoT-ReadMeasure/
 
 Edit the [manifest.yml](manifest.yml) file in your local cloned copy and give a name to your app.
 
