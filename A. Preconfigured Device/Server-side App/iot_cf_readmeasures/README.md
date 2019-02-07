@@ -5,8 +5,8 @@ This application is a sample implementation of SAP Leonardo IoT APIs for getting
 
 ### Overview
 - It is coded in [NodeJS](https://nodejs.org/en/)
-- Can be deployed anywhere and I suggest to do it in the  [SAP Cloud Platform](https://cloudplatform.sap.com). 
-- It makes use of the  - [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
+- Can be deployed anywhere, we suggest to deploy it in the  [SAP Cloud Platform](https://cloudplatform.sap.com). 
+- It makes use of the [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
 
 ### Prerequisites
 * A free trial account on [SAP Cloud Platform](https://cloudplatform.sap.com) with Cloud Foundry Trial initialized.
@@ -17,9 +17,9 @@ Clone this repository
 ```sh
 $ git clone https://github.com/TrinidadMG/IoTBuildBlock.git
 ```
-Give a name to your app on the [manifest.yml](manifest.yml)
+Give a name to your app on the [manifest.yml](manifest.yml).
 
-From the root directory, using the [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) push your app to the SAP CP Cloud Foundry:
+From the root directory, using the Cloud Foundry CLI (see prerequisites) push your app to the SAP CP Cloud Foundry:
 ```
 $ cf push --random-route
 ```
@@ -27,7 +27,7 @@ $ cf push --random-route
 
 *It's ok if you get an error at this point*
 
-It requires some parameters to be configured either in the manifest.yaml or with the cf cli as follows
+The application requires some parameters to be configured either in the manifest.yaml or with the cf cli as follows
 ```sh
 $ cf set-env <yourAppName> IOT_TENANT_URL <YOUR IOT_TENANT_URL>
 ```
