@@ -32,7 +32,7 @@ We provide to you also 2 different sample apps showing you how to consume the Io
 2. Server-side: [Sample NodeJS app to Retrieve Sensor Values](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device/Server-side%20App/iot_cf_readmeasures)
         Retrieves sensor measures via API
 
-Check their corresponding README files to get all details how to deploy those applications.
+Check their corresponding README files to get all details how to deploy these applications.
 
 ### Additional documentation:
 
