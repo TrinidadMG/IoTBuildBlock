@@ -45,6 +45,14 @@ For more details on each one of the options please check their corresponding REA
 ## Usage  
 Follow the documents and samples provided in each one of the option's folders. 
 
+## Additional documentation:
+
+- [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
+
+- [REST gateway APIs for sending data to the IoT gateway](https://help.sap.com/viewer/d5f07bf9e1d646959a006f98d4cce321/Cloud/en-US)
+
+- [SAP Cloud Platform Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) main page
+
 ## License
 This repository is released under the terms of the MIT license. 
 See [LICENSE](https://github.com/B1SA/hackathon/blob/master/LICENSE) for more information or see https://opensource.org/licenses/MIT.
