@@ -11,8 +11,6 @@ D --> E[Setting up your Gateway / Router to Platform]
 E --> F[Communicating between your Device and the Gateway]
 ```
 
-Before you start, make sure you're provided with a Test & Development tenant of SAP Leonardo IoT 4.0 Service Cockpit and a Sensor Device.
-
 In this build block, you will learn & understand the following:
 
 1. SAP Leonardo IoT 4.0 Service.
@@ -23,34 +21,28 @@ A ready-to-consume APIs set that allows you to consume Sensor Device data in rea
 3. The Texas Instruments CC2650STK sensor. 
 This sensor is a Bluetooth Low Energy (BLE) Enabled Sensor Device which has 10 sensors including support for light, digital microphone, magnetic sensor, humidity, pressure, accelerometer, gyroscope, magnetometer, object temperature, and ambient temperature.
 
-Due to the limited time we have during the hackathon, we STRONGLY recommend you to go with the **Preconfigured Device Option A**.
+Before you start, make sure you're provided with a Test & Development tenant of SAP Leonardo IoT 4.0 Service Cockpit and a Sensor Device.
 
 ## Overview
-For this hackathon if you follow the **Option A - Preconfigured Device**, most of the components above have already been preconfigured and set up for you.
+To develop your IoT app we propose you two options:
 
-Your main task is then to understand **how to operate with the Device (Send / Receive Sensor Data) & Pull data from the IoT Platform**.
+### [Option A: Preconfigured Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device)
+For this hackathon if you follow the Option A - Preconfigured Device, most of the components above have already been preconfigured and set up for you.
+Your main task is then to understand how to operate with the Device (Send / Receive Sensor Data) & Pull data from the IoT Platform.
 
-For more details on each one of the options please check their corresponding README files and folders content provided:
-
-### Option A: Preconfigured Device (**LINKS TO BE ADDED**)
-1. API Reference document explaining how to GET Sensor Data from SAP Leonardo IoT Platform 
-2. Postman Samples on Reference to SAP Leonardo IoT API
-2. Client-side: Sample SAP Fiori app to Retrieve Sensor Values deployed in Cloud Foundry
-3. Server-side: Sample NodeJS app to Retrieve Sensor Values deployed in Cloud Foundry
+Please check the [specific readme for details on this option](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device).
 
 ### Option B: Bring Your Own Device 
-1. API Reference to create your device in the SAP Leonardo IoT Platform
-2. Sample JavaScript language script processing the API Reference
-3. Sample SAP Fiori App to Execute Sample Script
+If you choose this option it means you have your own IoT device that you want to manage from SAP Leonardo IoT Service. In this case you will have to declare and configure your device in the SAP Leonardo IoT Service. We will provide you with some documents and sample code so you can fulfill this task.
 
-### Prerequisites
-- [Personal] SAP Cloud Platform Trial Account
-- [Instructor] SAP Leonardo IoT 4.0 Service Cockpit Account
-- [Instructor] Texas Instruments SensorTag CC2650STK
-- [Instructor] SAP Router App
+Please check the [specific readme for details on this option](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device).
 
-## Usage
-Follow document  provided in the option folder. 
+**Due to the limited time we have during the hackathon, we STRONGLY recommend you to go with the Preconfigured Device Option A**.
+
+For more details on each one of the options please check their corresponding README files and folders content provided.
+
+## Usage  
+Follow the documents and samples provided in each one of the option's folders. 
 
 ## License
 This repository is released under the terms of the MIT license. 
