@@ -18,7 +18,7 @@ For this sensor to be able to send data to the SAP Leonardo IoT 4.0 Service a ga
 IoT measures will then be available in the IoT tenant assigned to you and you can simply consume them from within your application.
 
 ### Documentation 
-The attached document shows in detail how to get the measures for your device via 3 different options:
+The document [IoT 4.0-Retrieve Measures.pdf](https://github.com/TrinidadMG/IoTBuildBlock/blob/master/A.%20Preconfigured%20Device/IoT%204.0-Retrieve%20Measures.pdf) shows in detail how to get the measures for your device via 3 different options:
     - IoT tenant cockpit
     - IoT API Documentation
     - Postman ([check our Postman collection samples](https://github.com/TrinidadMG/IoTBuildBlock/blob/master/A.%20Preconfigured%20Device/IoT%204.0%20APIs.postman_collection.json)) 
