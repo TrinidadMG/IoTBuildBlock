@@ -11,6 +11,8 @@ D --> E[Setting up your Gateway / Router to Platform]
 E --> F[Communicating between your Device and the Gateway]
 ```
 
+## Overview
+
 In this build block, you will learn & understand the following:
 
 1. SAP Leonardo IoT 4.0 Service.
@@ -23,7 +25,6 @@ This sensor is a Bluetooth Low Energy (BLE) Enabled Sensor Device which has 10 s
 
 Before you start, make sure you're provided with a Test & Development tenant of SAP Leonardo IoT 4.0 Service Cockpit and a Sensor Device.
 
-## Overview
 To develop your IoT app we propose you two options:
 
 ### [Option A: Preconfigured Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device)
