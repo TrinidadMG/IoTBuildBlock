@@ -32,7 +32,7 @@ Your main task is then to understand **how to operate with the Device (Send / Re
 
 For more details on each one of the options please check their corresponding README files and folders content provided:
 
-### Option A: Preconfigured Device (**LINKS TO BE ADDED**)
+### [Option A: Preconfigured Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device)
 1. API Reference document explaining how to GET Sensor Data from SAP Leonardo IoT Platform 
 2. Postman Samples on Reference to SAP Leonardo IoT API
 2. Client-side: Sample SAP Fiori app to Retrieve Sensor Values deployed in Cloud Foundry
