@@ -17,7 +17,10 @@ Clone this repository
 ```sh
 $ git clone https://github.com/TrinidadMG/IoTBuildBlock.git
 ```
-Give a name to your app on the [manifest.yml](manifest.yml).
+
+Go to your local folder of this application /A. Preconfigured Device/Server-side App/iot_cf_readmeasures/
+
+Edit the [manifest.yml](manifest.yml) file and give a name to your app.
 
 From the root directory, using the Cloud Foundry CLI (see prerequisites) push your app to the SAP CP Cloud Foundry:
 ```
