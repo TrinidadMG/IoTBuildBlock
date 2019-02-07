@@ -4,7 +4,7 @@
 This application is a sample implementation of SAP Leonardo IoT APIs for getting your IoT device measures via the SAP Leonardo IoT APIs. 
 
 ### Overview
-- It is coded in [NodeJ](https://nodejs.org/en/)
+- It is coded in [NodeJS](https://nodejs.org/en/)
 - Can be deployed anywhere and I suggest to do it in the  [SAP Cloud Platform](https://cloudplatform.sap.com). 
 - It makes use of the  - [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
 
