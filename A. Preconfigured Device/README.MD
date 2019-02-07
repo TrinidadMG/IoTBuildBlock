@@ -4,7 +4,7 @@ With this option, you will be able to retrieve your device measures from the IoT
 
 ### Provided resources 
  
-- The credentials of an SAP Leonardo IoT tenant
+- The credentials of an SAP Leonardo IoT tenant will be provided during the hackaton session:
     - IOT_INSTANCE_URL
     - User 
     - Password
