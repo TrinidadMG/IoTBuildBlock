@@ -1,7 +1,7 @@
-# iot_cf-readmeasures - An implementation of SAP Leonardo IoT APIs for reading measures
+# iot_cf-readmeasures
 [![SAP](https://i.imgur.com/HBBBde7.png)](https://cloudplatform.sap.com)
 
-This application calls the SAP Leonardo IoT APIs for getting your IoT device measures. 
+This application is a sample implementation of SAP Leonardo IoT APIs for getting your IoT device measures via the SAP Leonardo IoT APIs. 
 
 ### Overview
 - It is coded in [NodeJ](https://nodejs.org/en/)
