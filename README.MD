@@ -63,8 +63,8 @@ N.A.
 [Internet of Things Service API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
 
 ## Author
-- MARTINEZ GEA, Maria Trinidad
-- Tan, Jacob
+* [MARTINEZ GEA, Maria Trinidad](https://github.com/TrinidadMG)
+* [Tan, Jacob](https://github.com/jacobtan89)
 
 ## License
 This repository is released under the terms of the MIT license. 
