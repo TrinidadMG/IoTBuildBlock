@@ -16,10 +16,10 @@ In an typical IoT scenario, you would need to setup & achieve the following comp
 
 In this build block, you will learn & understand the following:
 
-1. [SAP Leonardo IoT 4.0 Service](https://cloudplatform.sap.com/capabilities/technical-asset-info.SAP-Cloud-Platform-Internet-of-Things.420907e8-fb5b-44bb-8966-a3e4679987d9.html)
+1. [SAP Leonardo IoT 4.0 Service](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US)
 The SAP Leonardo IoT 4.0 Service provides a ready-to-consume API service that allows you to consume Sensor Device data immediately with the runtime of your choice.
 
-2. [SAP Leonardo IoT 4.0 Service APIs](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
+2. [SAP Leonardo IoT 4.0 Service APIs](https://help.sap.com/viewer/6040fec3f22e4f9b8bf495f3789d66b5/Cloud/en-US#). [API Documentation](https://trial.canary.cp.iot.sap/iot/core/api/v1/doc/)
 A ready-to-consume APIs set that allows you to consume Sensor Device data in real time.
 
 3. The [Texas Instruments CC2650STK SensorTag](http://www.ti.com/tool/TIDC-CC2650STK-SENSORTAG). 
