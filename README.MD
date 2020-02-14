@@ -48,6 +48,7 @@ For more details on each one of the options please check their corresponding REA
 Follow the documents and samples provided in each one of the option's folders. 
 
 ## Samples
+- [SMB.io mobile app](https://github.com/jacobtan89/smb.io/tree/master/iot) - Check this IoT app that uses bluetooth (BLE) to connect the SensorTag and stream sensor data (Accelerometer, Luxometer, Humidity & Temperature) to SAP Leonardo as well as directly to your ERP system (SAP Business One / SAP Business ByDesign) to get triggers. 
 - [Option A: Preconfigured Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/A.%20Preconfigured%20Device)
 - [Option B: Bring Your Own Device](https://github.com/TrinidadMG/IoTBuildBlock/tree/master/B.%20Bring%20Your%20Own%20Device) 
 
