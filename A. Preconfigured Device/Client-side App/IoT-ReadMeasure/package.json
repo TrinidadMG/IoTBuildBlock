@@ -4,7 +4,7 @@
   "description": "Client-side SAPUI5 App Retrieving IoT Measures from SAP Leonardo IoT 4.0",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "request": "^2.83.0"
   },
   "main": "server.js",
